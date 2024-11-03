@@ -1,0 +1,25 @@
+// Utils
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// Components
+@import 'components/button';
+@import 'components/header';
+@import 'components/footer';
+
+// Themes
+@import 'themes/colors';
+@import 'themes/dark-theme';
+
+
+// main.scss
+body {
+  background-color: $background-color; // Используйте переменную из dark-theme
+  color: $text-color;
+}
