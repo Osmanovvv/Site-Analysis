@@ -1,0 +1,27 @@
+@import '/src/sass/utils/variables';
+
+.statistics {
+  padding-top: 5%;
+  
+  &__title {
+    font-size: 35px;
+    padding-left: 10%;  
+  }
+
+  &__items {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    list-style: none;
+  }
+
+  &__item {
+    font-size: 20px;
+    color: $text-color;
+  }
+}
+

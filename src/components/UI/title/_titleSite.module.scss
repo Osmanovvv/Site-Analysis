@@ -1,0 +1,9 @@
+@import '/src/sass/utils/variables';
+
+.title {
+  padding: 5% 0;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: $primary-color;
+}

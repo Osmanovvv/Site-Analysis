@@ -11,15 +11,14 @@
 // Components
 @import 'components/button';
 @import 'components/header';
+@import 'components/main';
 @import 'components/footer';
+
+// UI
+@import '../components/UI/title/titleSite.module';
+@import '../components/UI/buttons/btn.module';
+@import '../components/UI/StatisticsPanel/statisticsPanel.module';
 
 // Themes
 @import 'themes/colors';
 @import 'themes/dark-theme';
-
-
-// main.scss
-body {
-  background-color: $background-color; // Используйте переменную из dark-theme
-  color: $text-color;
-}
